@@ -60,7 +60,7 @@ catkin_make_isolated --install --use-ninja
 source install_isolated/setup.bash
 ```
 **NOTE:**
-When building, if you receive a variable error related to ***"CMAKE_MAKE_PROGRAM"*** and ***test_tf2***, you can resolve this by moving or deleting the catkin_ws/src/geometry2/test_tf2 directory and restarting the build.
+When building, if you receive a variable error related to ***"CMAKE_MAKE_PROGRAM"*** and ***test_tf2***, you can temporarily resolve this by moving or deleting the catkin_ws/src/geometry2/test_tf2 directory and restarting the build.
 ```
 mv ~/catkin_ws/src/geometry2/test_tf2/ ~/
 ```
